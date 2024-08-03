@@ -355,8 +355,8 @@
       button:hover,
       .btn-outline-dark.btn-hover-color:hover {
           color: var(--light-01);
-          border: 2px solid var(--brand-01);
-          background: var(--brand-01);
+          border: 2px solid rgb(40, 119, 40);
+          background: rgb(40, 119, 40);
           transition: var(--hover-timing);
           box-shadow: var(--card-hover);
       }
@@ -451,7 +451,7 @@
       }
       
       #serv-board > .card-image {
-          background: linear-gradient(45deg, #EDDAA9 0%, #B87D93 100%);
+          background: linear-gradient(45deg, #097400 0%, #c7fd9c 100%);
       }
       
       .card-med:hover .card-image {
