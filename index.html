@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/1892/1892747.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+    <title>PlantPal</title>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/f127e12b-0517-4810-ba8c-126b9178aae0/webchat/config.js" defer></script>
+</head>
+<body>
+    <script src="index.js"></script>
+    <header>
+        <div class="banner">Get free delivery on orders over ₹999</div>
+        <nav>
+            
+            <div id="logo" style="cursor: pointer; display: flex; align-items: center; justify-content: center; height: 100px;">
+                <img src="logo.png" alt="PlantPal Logo" height="35" width="120" />
+            </div>
+            
+            
+            </div>
+            <ul class="navigation-menu">
+                <li><a href="customerlogin.html">Products</a>
+                    
+
+
+                <li><a href="#">Services</a>
+                    <ul class="subnav">
+                        <li class="card-med" id="serv-groom">
+                            <div class="card-image"><img src="https://ouch-cdn2.icons8.com/UzwhxLcWTpG0faipSj3yZWWfy-cbNp0Zcp1BphsZ7LY/rs:fit:368:512/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOTQw/LzM1YzBjNmU1LTBj/NDgtNGY4Ny04NWYy/LWE1YmUxMTNmYTdj/OC5wbmc.png"></div>
+                            <a href="#">
+                                <span>Grooming</span>
+                                <span>More Info <span class="material-symbols-outlined">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="serv-board">
+                            <div class="card-image"><img src="https://ouch-cdn2.icons8.com/10V95_55oGKMXG8Kx-wJlcj3vtBv5Sc0TC7dX2pkNL8/rs:fit:368:245/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvODg0/Lzg1ODU5MTgzLTM1/NzUtNDhjNC04ZTM5/LTY2OTlmNzI3MWU0/NS5wbmc.png"></div>
+                            <a href="#">
+                                <span>Boarding</span>
+                                <span>More Info<span class="material-symbols-outlined">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span></span>
+                            </a>
+                    </ul>
+                </li>
+                <!-- <li><a href="#locate">Locations &amp; Hours</a>
+                </li> -->
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+            </ul>
+            <div id="utility">
+                <button class="btn-filled-dark" style="height: 40px;" >Sign In<span class="material-symbols-outlined">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    </span></button>
+                  <span class="material-symbols-outlined"  style="cursor: pointer;">
+                    <i class="fa-solid fa-house"></i>
+                </span>
+                <span class="material-symbols-outlined"  style="cursor: pointer;">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Plant Care Made Easy: Products, Tips, and Community!</h1>
+        <div class="btn-group">
+            <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                <i class="fa-solid fa-cart-shopping"></i>
+                </span>Shop All Products</button>
+                
+        </div>
+
+    </section>
+    <section id="shop">
+        <h2>Shop by Categories</h2>
+        <ul class="shop-pets">
+            <li class="card-large card-light" id="sup-dog">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/KbEDDpzxeOmny8Y_yT4a-69cRDv_7P0w71sd0tYPcOE/rs:fit:368:386/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvODQ0/L2Y2NGI1OTRiLWNl/N2QtNGRkNS1iNTc3/LTM1Mjg0NGZiM2Mz/ZS5wbmc.png"></div>
+                <ul>
+                    Plants
+                    <li><a href="#" >Indoor Plants</a></li>
+                    <li><a href="#">Outdoor Plants</a></li>
+                    <li><a href="#">Garden Ornaments</a></li>
+                    <li><a href="#">Outdoor Supplies</a></li>
+
+                    <button class="btn-outline-light" >Shop All<span class="material-symbols-outlined">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span></button>
+
+                </ul>
+
+
+            </li>
+
+            <li class="card-large card-dark" id="sup-cat">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/XJJfLge6GsDZQmXNFN_JE04c5vbUUvwDbsVv0qcFmdc/rs:fit:368:441/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjQx/LzhmZjIzMGVmLTdi/N2UtNGUwNS04MDI4/LTAwZDk3YzBlMTAz/Mi5wbmc.png"></div>
+                <ul>Fertilizers
+                    <li><a href="#">Soil & Fertilizers</a></li>
+                    <li><a href="#">Plant Food</a></li>
+                    <li><a href="#">Pest Control</a></li>
+                    <li><a href="#">Disease Prevention</a></li>
+                    <button class="btn-outline-dark" >Shop All<span class="material-symbols-outlined">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span></button>
+                </ul>
+
+            </li>
+
+            <li class="card-large card-dark" id="sup-bird">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/myRV1iemrnAmaPP2guPZ9x8UacFeDAM1L8T-NLTdVRA/rs:fit:368:368/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzE0/LzQ5M2Q3MjlhLWY1/YTEtNGUwYy04NzA5/LTUxZGY5NDgyZDIz/YS5wbmc.png"> </div>
+                <ul>Seeds
+                    <li><a href="#">Organic & Heirloom Seeds</a></li>
+                    <li><a href="#">Exotic & Rare Seeds</a></li>
+                    <li><a href="#">Turfgrass Seeds</a></li>
+                    <button class="btn-outline-dark">Shop All<span class="material-symbols-outlined">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span></button>
+                </ul>
+
+            </li>
+            <li class="card-large card-light" id="sup-fish">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/Ym5ISVEPq6K3j2PRlVousNFib0lOAk3VdyTxDMpGzEs/rs:fit:368:408/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjUw/LzY5YTYyYmM1LTZm/OGUtNGI3ZS1iNzdm/LTIxMTQ3OGI2ODdi/OC5wbmc.png"></div>
+                <ul>
+                     Gardening Tools
+                    <li><a href="#">Pruning & Trimming Tools</a></li>
+                    <li><a href="#">Hand Tools</a></li>
+                    <li><a href="#">Fencing & Edging</a></li>
+                    <button class="btn-outline-light">Shop All<span class="material-symbols-outlined">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span></button>
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+
+    <section id="shop1">
+        <h2>Our Services</h2>
+
+        <ul class="services">
+            <li class="card-large card-dark card-wide" id="serv-groom">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/UzwhxLcWTpG0faipSj3yZWWfy-cbNp0Zcp1BphsZ7LY/rs:fit:368:512/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOTQw/LzM1YzBjNmU1LTBj/NDgtNGY4Ny04NWYy/LWE1YmUxMTNmYTdj/OC5wbmc.png"></div>
+                <ul style="background: #f7f7f7;">
+                    Plant & Seed Exchange<span class="subtitle">Planting Possibilities: Connect and Exchange with Us.</span>
+                    <li><a href="#">Forums & Discussions</a></li>
+                    <li><a href="#">Plant Swap Events</a></li>
+                    <li><a href="#">Gardening Workshops</a></li>
+                    <button class="btn-filled-dark" onclick="scrollToSection();"><span class="material-symbols-outlined">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </span>Book Now</button>
+
+                </ul>
+
+
+            </li>
+            <li class="card-large card-dark card-wide" id="serv-board">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/10V95_55oGKMXG8Kx-wJlcj3vtBv5Sc0TC7dX2pkNL8/rs:fit:368:245/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvODg0/Lzg1ODU5MTgzLTM1/NzUtNDhjNC04ZTM5/LTY2OTlmNzI3MWU0/NS5wbmc.png"></div>
+                <ul style="background: #f7f7f7;">
+                     Expert Advice<span class="subtitle">Unlock Professional Advice for Superior Plant Care.</span>
+                    <li><a href="#">Connect with local gardeners</a></li>
+                    <li><a href="#">Get Personalized Tips </a></li>
+                    <li><a href="#">DIY Projects</a></li>
+                    <button class="btn-filled-dark" onclick="scrollToSection();"><span class="material-symbols-outlined">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </span>Book Now</button>
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+
+    <section id="locate">
+
+        <div>
+            <h2>Feedback</h2>
+            <p>Leaf Your Thoughts Here! We're Rooted in Your Feedback to Help Us Grow Better Together!</p>
+            <div style="display: flex;">
+            <div class="form_wrap">
+            <div class="form_item"> <input type="text" placeholder="Name" id="phno" name="phno"> </div>
+        </div>
+            <div class="form_wrap">
+                <div class="form_item"> <input type="text" placeholder="E-Mail" id="phno" name="phno"> </div>
+            </div></div><br><br>
+            <div class="form_wrap">
+                <div class="form_item"> <textarea type="text" placeholder="Comment" id="phno" name="phno"></textarea> </div>
+            </div><br><br>
+            <div class="btn-group">
+                <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                    <i class="fa-solid fa-check"></i>
+</span>Summit</button>
+            </div>
+        </div>
+    </section>
+    <section class="sell">
+        <h1>Join the Leading Network of Plant Enthusiasts and Professionals</h1>
+        <div class="btn-group">
+            <button class="btn-filled-dark"><spxfan class="material-symbols-outlined">
+                <i class="fa-brands fa-sellsy"></i>
+                </spxfan>Become a Seller</button>
+            
+        </div>
+
+    </section>
+    <footer>
+
+        <ul>
+            Products
+            <li><a onclick="scrollToSection1()">Indoor Plants</a></li>
+            <li><a onclick="scrollToSection1()">Garden Ornaments</a></li>
+            <li><a onclick="scrollToSection1()">Organic & Heirloom Seeds</a></li>
+            <li><a onclick="scrollToSection1()">Exotic & Rare Seeds</a></li>
+            <li><a onclick="scrollToSection1()">Pest Control</a></li>
+            <li><a onclick="scrollToSection1()">Pruning & Trimming Tools</a></li>
+            <li><a onclick="scrollToSection1()">Soil & Fertilizers</a></li>
+        </ul>
+
+        <ul>
+            Shop by Categories
+            <li><a onclick="scrollToSection1()">Plants</a></li>
+            <li><a onclick="scrollToSection1()">Fertilizers</a></li>
+            <li><a onclick="scrollToSection1()">Seeds</a></li>
+            <li><a onclick="scrollToSection1()">Tools</a></li>
+        </ul>
+
+
+        <ul>
+            Our Services
+            <li><a onclick="scrollToSection2()">Plant & Seed Exchange</a></li>
+            <li><a onclick="scrollToSection2()">Expert Advice</a></li>
+        </ul>
+        <ul>
+            Our Company
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+
+    </footer>
+</body>
+</html>
