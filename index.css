@@ -261,8 +261,8 @@
       }
       
       
-      .card-large#sup-dog,
-      .card-med#sup-dog > .card-image {
+      .card-large#sup-plant,
+      .card-med#sup-plant > .card-image {
           background: linear-gradient(45deg, #463631 0%, #976C5B 100%);
       }
       
@@ -273,20 +273,20 @@
       }
       
       
-      .card-large#sup-cat,
-      .card-med#sup-cat > .card-image {
+      .card-large#sup-fer,
+      .card-med#sup-fer > .card-image {
           background: linear-gradient(45deg, #F6AE6C 0%, #ECBD73 100%);
       }
       
       
-      .card-large#sup-bird,
-      .card-med#sup-bird > .card-image {
+      .card-large#sup-seed,
+      .card-med#sup-seed > .card-image {
           background: linear-gradient(45deg, #EFEFEF 0%, #F2F2F2 100%);
       }
       
       
-      .card-large#sup-fish,
-      .card-med#sup-fish > .card-image {
+      .card-large#sup-tool,
+      .card-med#sup-tool > .card-image {
           background: linear-gradient(45deg, #1E4782 0%, #709DDF 100%);
       }
       
@@ -446,11 +446,11 @@
           font-size: 18px;
       }
       
-      #serv-groom > .card-image {
+      #psexchange > .card-image {
           background: linear-gradient(45deg, #45828C 0%, #A7D4D8 100%);
       }
       
-      #serv-board > .card-image {
+      #expertad > .card-image {
           background: linear-gradient(45deg, #097400 0%, #c7fd9c 100%);
       }
       
@@ -662,7 +662,7 @@
               flex-direction: column;
           }
       
-          .shop-pets,
+          .shop-plant,
           .services {
               display: flex;
               flex-direction: column;
@@ -746,7 +746,7 @@
               flex-direction: column;
           }
       
-          .shop-pets {
+          .shop-plant {
               display: grid;
               grid-template-columns: 1fr 1fr;
               grid-row: auto auto;
@@ -793,7 +793,7 @@
               flex-direction: row;
           }
       
-          .shop-pets,
+          .shop-plant,
           .services {
               display: flex;
               flex-direction: row;
@@ -861,7 +861,7 @@
               background-position: 90% 60%;
           }
       
-          .shop-pets,
+          .shop-plant,
           .services {
               display: flex;
               flex-direction: row;
